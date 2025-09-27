@@ -48,15 +48,6 @@ const ProjectModal: React.FC<{ project: Project | null; onClose: () => void }> =
           </div>
         </div>
       </div>
-      <style jsx>{`
-        @keyframes fade-in {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        .animate-fade-in {
-            animation: fade-in 0.3s ease-out forwards;
-        }
-      `}</style>
     </div>
   );
 };
